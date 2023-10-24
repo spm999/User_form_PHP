@@ -1,0 +1,98 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* User details styles */
+.user-details {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+.user-details h3 {
+    font-size: 1.5em;
+}
+
+.user-details p {
+    margin: 10px 0;
+}
+
+.user-details img {
+    max-width: 150px;
+}
+
+/* Update form styles */
+.update-form {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+}
+
+.update-form h3 {
+    font-size: 1.5em;
+}
+
+.update-form form {
+    margin-top: 10px;
+}
+
+.update-form input[type="text"],
+.update-form input[type="file"] {
+    width: 98%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.update-form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.update-form input[type="submit"]:hover {
+    background-color:#007bff
+}
+
+/* Logout link styles */
+.logout-link {
+    display: block;
+    width: 50%; /* Set the width to 50% */
+    margin: 20px auto; /* Center the button horizontally */
+    text-align: center;
+    padding: 10px; /* Add some padding to the button */
+    background-color: #007bff; /* Background color for the button */
+    color: #fff; /* Text color */
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.logout-link:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+    text-decoration: none;
+}
